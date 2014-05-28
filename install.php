@@ -7,7 +7,6 @@
 
 /**
  * Defines the root directory of the Drupal installation.
- **this is just a comment for testing GIT, ignore.
  */
 define('DRUPAL_ROOT', getcwd());
 

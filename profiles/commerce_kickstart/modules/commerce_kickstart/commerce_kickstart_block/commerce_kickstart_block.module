@@ -51,10 +51,13 @@ function commerce_kickstart_block_block_view($delta = '') {
 
   switch ($delta) {
     case 'shipping_discount':
-      $amount = '9999';
+    //modified to change the text in the module for the shipping discount block. Where is the CSS?
+      //$amount = '9999';
+      $amount = '';
       $items = array(
-        commerce_kickstart_block_build_element(t('<span><em>Free</em> shipping</span> on orders over'), 'shipping_message'),
-        commerce_kickstart_block_build_element(t('@amount', array('@amount' => commerce_currency_format($amount, commerce_default_currency()))), 'shipping_currency'),
+        //commerce_kickstart_block_build_element(t('<span><em>Free</em> shipping</span> on orders over'), 'shipping_message'),
+        commerce_kickstart_block_build_element(t('<span>Tell <br>Them<br>Chanelle Sent You!'), 'shipping_message'),
+        //commerce_kickstart_block_build_element(t('@amount', array('@amount' => commerce_currency_format($amount, commerce_default_currency()))), 'shipping_currency'),
       );
       $block['content'] = commerce_kickstart_block_build_element(implode('', $items), 'shipping', NULL, 'div');
       break;

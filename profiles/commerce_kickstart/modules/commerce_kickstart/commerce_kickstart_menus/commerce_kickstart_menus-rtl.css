@@ -1,12 +1,19 @@
 #toolbar .toolbar-menu-store-settings .wrapper-depth-3 ul.group {
   float: right;
+  color:green;
+
 }
 #toolbar .toolbar-menu-store-settings .wrapper-depth-3 ul.group-0 {
+color:green;
+
   float: left;
 }
 #toolbar .toolbar-menu-site-settings .wrapper-depth-3 ul.group {
+color:green;
+
   float: right;
 }
 #toolbar .toolbar-menu-site-settings .wrapper-depth-3 ul.group-1 {
+color:green;
   float: left;
 }

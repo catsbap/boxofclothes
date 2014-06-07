@@ -18,7 +18,7 @@ body.toolbar #toolbar div.toolbar-menu {
   background-image: linear-gradient(to bottom, #55b5ff, #50adf5);
 }
 #toolbar a {
-  color: #fff;
+  color: green;
   text-shadow: 0 1px 1px #18466b;
 }
 

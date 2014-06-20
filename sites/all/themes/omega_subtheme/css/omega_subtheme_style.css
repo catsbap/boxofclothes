@@ -47,6 +47,7 @@
 * 1. Global
 * --
 **************************************************/
+
 body {
   background: #ececec url("../images/bg.png") left top; }
 
@@ -54,6 +55,11 @@ body {
   display: none; }
 .responsive-layout-mobile .selectnav {
   display: block; }
+  
+#logo {padding-left:300px;
+	margin-bottom:-30px;
+	margin-top:20px;
+}
 
 /**************************************************
 * --
@@ -71,7 +77,7 @@ body {
 *******************************************/
 /* User menu */
 .block-menu-user-menu .content ul.menu li.first {
-  border-right: 1px solid #ffffff;
+  border-right: 1px solid #ba1b1b;
   /* LTR */
   padding-right: 7px;
   /* LTR */ }
@@ -84,7 +90,7 @@ body {
   text-decoration: none; }
 .block-menu-user-menu .content ul.menu li a.active:hover,
 .block-menu-user-menu .content ul.menu li a:hover {
-  background-color: #717171;
+  background-color: #1b3c75;
   text-decoration: none; }
 
 /*******************************************

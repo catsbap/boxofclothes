@@ -223,7 +223,7 @@ select {
 
 /* User menu */
 .block-menu-user-menu .content {
-  float: left;
+  float: right;
   position: relative;
   overflow: hidden;
   width: 100%; }

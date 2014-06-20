@@ -22,7 +22,7 @@ h1#page-title {
 @media (-webkit-min-device-pixel-ratio: 0) {
   select,
   select[size] {
-    background-image: url("../images/select-arrow-rtl.gif");
+    background-lo: url("../images/select-arrow-rtl.gif");
     background-position: left center;
     padding-left: 20px;
     padding-right: 3px; } }

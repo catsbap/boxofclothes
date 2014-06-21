@@ -57,8 +57,13 @@ body {
   display: block; }
   
 #logo {padding-left:300px;
-	margin-bottom:-30px;
-	margin-top:20px;
+	margin-bottom: -30px;
+	
+}
+
+/**style the search box*/
+#block-views-exp-display-products-page {
+	margin-top:-125px;
 }
 
 /**************************************************
@@ -104,6 +109,10 @@ body {
   background-image: url("../images/picto_cart.png"); }
   .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links {
     background-color: #2698F2; }
+    
+#branding {
+	border:1px solid;
+}
 
 /**************************************************
 * --

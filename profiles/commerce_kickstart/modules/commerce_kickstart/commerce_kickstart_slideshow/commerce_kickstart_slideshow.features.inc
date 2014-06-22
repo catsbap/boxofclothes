@@ -42,7 +42,7 @@ function commerce_kickstart_slideshow_image_default_styles() {
         'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => '940',
-          'height' => '480',
+          'height' => '380',
         ),
         'weight' => '2',
       ),

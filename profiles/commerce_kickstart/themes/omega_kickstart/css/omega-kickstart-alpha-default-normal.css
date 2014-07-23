@@ -132,7 +132,7 @@
     #block-views-demo-content-slideshow-block-1 .bx-prev span.field-content,
     #block-views-demo-content-slideshow-block-1 .bx-next span.field-content {
       display: block;
-      font-family: "Open Sans", sans-serif;
+      font-family: "Alex-Brush", sans-serif;
       font-weight: 300;
       font-size: 21px;
       height: 80px;
@@ -142,12 +142,13 @@
       #block-views-demo-content-slideshow-block-1 .views-field-nothing span.field-content em,
       #block-views-demo-content-slideshow-block-1 .bx-prev span.field-content em,
       #block-views-demo-content-slideshow-block-1 .bx-next span.field-content em {
-        font-family: "Open Sans", sans-serif;
-        font-size: 32px;
+        font-family: "Alex-Brush", sans-serif;
+        font-size: 40px;
         font-style: normal;
         font-weight: 900;
         text-decoration: none;
-        text-transform: uppercase; }
+        margin-top:-20px;
+        text-transform: none; }
   #block-views-demo-content-slideshow-block-1 .bx-prev {
     margin-left: 0;
     /* LTR */

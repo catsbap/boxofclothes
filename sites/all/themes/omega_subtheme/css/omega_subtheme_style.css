@@ -49,14 +49,14 @@
 **************************************************/
 
 body {
-  background: #ececec url("../images/bg.png") left top; }
+  background: #add4e1 url("../images/bg.png") left top; }
 
 .responsive-layout-mobile .facetapi-lists {
   display: none; }
 .responsive-layout-mobile .selectnav {
   display: block; }
   
-#logo {padding-left:300px;
+#logo {padding-left:250px;
 	margin-bottom: -30px;
 	
 }
@@ -76,7 +76,7 @@ body {
 * 2.1. Zone user
 **********************************************/
 .zone-user-wrapper {
-  background-color: #afd6e4; }
+  background-color: #add4e1; }
 
 /*******************************************
 * 2.1.1. Region user first
@@ -190,7 +190,7 @@ body {
 .block-shipping-discount {
   /* HP blocks: Side advert */ }
   .block-shipping-discount #shipping {
-    background-color: #000000;
+    background-color: #330000;
     border: 6px solid #ffffff;
     color: #2698F2;
     display: block;
@@ -202,10 +202,10 @@ body {
   .block-shipping-discount #shipping #shipping_message span {
     border-bottom: 0px solid #ffffff;
     display: block;
-    color: #7582a0;
-    font-size: 20px;
+    color: #add4e1;
+    font-size: 16px;
     padding: 10px 0 4px 0;
-    text-transform: uppercase; }
+    text-transform: none; }
   .block-shipping-discount #shipping #shipping_message span em {
     font-size: 27px;
     font-style: normal; }
@@ -214,13 +214,20 @@ body {
     font-size: 27px;
     margin-top: 2px; }
   .block-shipping-discount #shipping #shipping_message {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400; }
   .block-shipping-discount #shipping #shipping_message span,
   .block-shipping-discount #shipping #shipping_message span em,
   .block-shipping-discount #shipping #shipping_currency {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700; }
+   /*menu on main page*/ 
+    .zone-menu .block-menu ul.menu li a {
+	    background-color: #add4e1;
+	    font-size:16px; 
+	    color:#330000;
+	    font-family:'Open Sans', sans-serif;
+    }
 
 #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content,
 #zone-postscript .block-blog-block .views-field-title .field-content {
@@ -248,7 +255,7 @@ body {
 * 4.1. Zone footer
 **********************************************/
 .zone-footer-wrapper {
-  background-color: #494949; }
+  background-color: #336666; }
 
 /**
 * Menu footer navigation
@@ -396,3 +403,50 @@ div.messages.commerce-add-to-cart-confirmation {
   background: url("../images/btn_twitter.png") no-repeat; }
 .not-logged-in #block-connector-one-click-block #edit-oauthconnector-google {
   background: url("../images/btn_google.png") no-repeat; }
+  
+  /*styles overriden in commerce kickstart css*/
+/*buttons on subheader pages*/
+.view-collection-taxonomy-term .view-header .collection-terms .view-content .item-list h3 a {
+          background-color: #336666;
+          color: #add4e1;
+          font-family: 'Open Sans', sans-serif;
+}
+
+/*collection titles on sub pages*/
+.view-collection-products .view-header .taxonomy-title, .view-collection-taxonomy-term .view-header .taxonomy-title  {
+          font-family:'Alex-brush', sans-serif;
+          font-size: large;
+          color: #336666;
+}
+
+
+.view-collection-taxonomy-term .view-content .item-list h3 .collection a
+{
+
+  text-transform: capitalize;
+  color: #336666;
+  display: block;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.view-collection-taxonomy-term .view-content .item-list h3 .collection
+{
+  background-color: #336666;
+}
+
+/*headlines on product list pages*/
+.view-collection-products .view-content .item-list .products-per-collection li header h2 a, .view-collection-taxonomy-term .view-content .item-list .products-per-collection li header h2 a
+{
+  color: #336666;
+  font-size: 14px;
+}
+
+/*overall text*/
+html, body, div
+{
+  color: #add4e1;
+}
+

@@ -62,6 +62,7 @@ css[omega_subtheme_style.css][options][weight] = 12
 settings[alpha_css][omega_subtheme_style.css] = 'omega_subtheme_style.css'
 
 
+
 ; THEME SETTINGS (DEFAULTS)
 
 settings[alpha_grid] = 'alpha_default'
